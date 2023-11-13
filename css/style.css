@@ -1,0 +1,35 @@
+:root[data-theme="light"] {
+  --text: #1a091a;
+  --background: #f5f4f5;
+  --primary: #FFCBAD;
+  --secondary: #ffdce6;
+  --tertiary: #add057;
+  --quaternary: #00bca3;
+  --quinary: #e2f5b8;
+  --senary: #85e0d6;
+  --accent: #427db8;
+  --font-family-heading: 'Montserrat', sans-serif;
+  --font-family-paragraph: 'roboto', sans-serif;
+}
+:root[data-theme="dark"] {
+  --text: #fdfcfd;
+  --background: #0b0a0b;
+  --primary: #521e00;
+  --secondary: #24000a;
+  --tertiary: #5b7614;
+  --quaternary: #42ffe6;
+  --quinary: #32470a;
+  --senary: #85e0d6;
+  --accent: #8ebd3d;
+  --font-family-heading: 'Montserrat', sans-serif;
+  --font-family-paragraph: 'Open Sans', sans-serif;
+}
+
+[data-theme='light'] .d-block-light,
+[data-theme='dark'] .d-block-dark {
+  display: block !important;
+}
+
+.d-none {
+  display: none !important;
+}

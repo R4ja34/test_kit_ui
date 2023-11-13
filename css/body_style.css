@@ -1,0 +1,60 @@
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+}
+
+p {
+  font-family: var(--font-family-paragraph);
+}
+
+.primary {
+  background-color: var(--tertiary);
+  color: var(--accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.typographie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espace entre les éléments */
+}
+
+.item {
+  flex: 1 1 45%; /* Largeur des colonnes avec espace entre les éléments */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles pour les éléments individuels */
+.heading {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.content {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.blockquote {
+  font-family: var(--font-family-paragraph);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.small {
+  font-family: var(--font-family-paragraph);
+  font-weight: normal;
+  font-size: 14px;
+}

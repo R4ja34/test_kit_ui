@@ -1,0 +1,55 @@
+.navbar {
+  background-color: var(--background);
+  border-bottom: 1px solid black;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+}
+
+.logo-titre {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  /* background: url("img/logo_op.jpg") center/70px no-repeat black; meme ligne que tous ce qui a en dessous */ 
+  background-image: url("/test_kit_ui/img/logo_op.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+
+.navbar-nav {
+  list-style: none;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-nav .dropbtn {
+  padding: 0px;
+
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  align-items: center;
+}
+
+.navbar-nav a {
+  color: var(--text);
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
