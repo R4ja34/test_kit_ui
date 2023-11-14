@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/button_style.css">
   <link rel="stylesheet" href="css/body_style.css">
   <link rel="stylesheet" href="css/navbar_style.css">
   <link rel="stylesheet" href="css/drop_down_style.css">
@@ -39,64 +40,111 @@
       </div>
     </nav>
   </header>
-  <h2 class="primary">Test JAVASCRIPT</h2>
-  <form>
-    <input type="button" value="Démarrer la machine" />
-  </form>
-  <p>La machine est arrêtée.</p>
-  
-  <h2 class="primary">Test TYPOGRAPHY</h2>
-  <div class="typographie">
 
-    <div class="item">
-      <span class="heading">Header 1</span>
-      <h1><span class="content">Dancing in the moonlight</span></h1>
-    </div>
+  <div class="exemple">
+    <h2 class="exemple-title">Test JAVASCRIPT</h2>
+    <form>
+      <input type="button" value="Démarrer la machine" />
+    </form>
+    <p>La machine est arrêtée.</p>
+  </div>
 
-    <div class="item">
-      <span class="heading">Header 2</span>
-      <h2><span class="content">Dancing in the moonlight</span></h2>
-    </div>
+  <div class="exemple">
+    <h2 class="exemple-title">Couleurs principales</h2>
+    <div class="swatch-card">
+      <div class="swatch" style="--swatch-background: var(--primary);">
+          <span></span>
+          <h2>Light Mode</h2>
+          <p>Primary</p>
+          <p>#FFCBAD</p>
+      </div>
+  </div>
 
-    <div class="item">
-      <span class="heading">Header 3</span>
-      <h3><span class="content">Dancing in the moonlight</span></h3>
-    </div>
+  <div class="exemple">
+    <h2 class="exemple-title">Test TYPOGRAPHY</h2>
+    <div class="typographie">
 
-    <div class="item">
-      <span class="heading">Header 4</span>
-      <h4><span class="content">Dancing in the moonlight</span></h4>
+      <div class="item">
+        <span class="heading">Header 1</span>
+        <h1><span class="content">Dancing in the moonlight</span></h1>
       </div>
 
-    <div class="item">
-      <span class="heading">Header 5</span>
-      <h5><span class="content">Dancing in the moonlight</span></h5>
-    </div>
+      <div class="item">
+        <span class="heading">Header 2</span>
+        <h2><span class="content">Dancing in the moonlight</span></h2>
+      </div>
 
-    <div class="item">
-      <span class="heading">Header 6</span>
-      <h6><span class="content">Dancing in the moonlight</span></h6>
-    </div>
+      <div class="item">
+        <span class="heading">Header 3</span>
+        <h3><span class="content">Dancing in the moonlight</span></h3>
+      </div>
 
-    <div class="item">
-      <span class="heading">Paragraph</span>
-      <span class="content">
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-      </span>
-    </div >
+      <div class="item">
+        <span class="heading">Header 4</span>
+        <h4><span class="content">Dancing in the moonlight</span></h4>
+        </div>
 
-    <div class="item">
-      <span class="heading">Bloquequote</span>
-      <blockquote><span class="content">Dancing in the moonlight</span></blockquote>
-    </div>
-    
-    <div class="item">
-      <span class="heading">Small text</span>
-      <small><span class="content">Texte petit ici.</span></small>
+      <div class="item">
+        <span class="heading">Header 5</span>
+        <h5><span class="content">Dancing in the moonlight</span></h5>
+      </div>
+
+      <div class="item">
+        <span class="heading">Header 6</span>
+        <h6><span class="content">Dancing in the moonlight</span></h6>
+      </div>
+
+      <div class="item">
+        <span class="heading">Paragraph</span>
+        <span class="content">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+        </span>
+      </div >
+
+      <div class="item">
+        <span class="heading">Blockquote</span>
+        <blockquote><span class="content">Dancing in the moonlight</span></blockquote>
+      </div>
+      
+      <div class="item">
+        <span class="heading">Small text</span>
+        <small><span class="content">Texte petit ici.</span></small>
+      </div>
     </div>
   </div>
 
-  
+  <div class="exemple">
+    <h2 class="exemple-title">Buttons</h2>
+    <div class="button-row">
+      <div class="button-container">
+        <button type="button" class="btn btn-block">Normal</button>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn btn-default btn-block">Default</button>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn btn-primary btn-block">Primary</button>
+      </div>
+      <div class="button-container">
+        <button type="button" class="btn btn-success btn-block">Success</button>
+      </div>
+    </div>
+    <div class="button-row">
+      <div class="button-container">
+        <button type="button" class="btn btn-info btn-block">Info</button>
+        </div>
+        <div class="button-container">
+          <button type="button" class="btn btn-warning btn-block">Warning</button>
+        </div>
+        <div class="button-container">
+          <button type="button" class="btn btn-danger btn-block">Danger</button>
+        </div>
+        <div class="button-container">
+          <button type="button" class="btn btn-link btn-block">Link</button>
+        </div>
+    </div>
+</div>
+
   <footer>
     <p>© 2023 Raja Kit UI. Tous droits réservés.</p>
   </footer>

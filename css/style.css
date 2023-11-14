@@ -8,8 +8,14 @@
   --quinary: #e2f5b8;
   --senary: #85e0d6;
   --accent: #427db8;
+  --button-color: #fff;
+  --button-bg: #ccd1d9;
+  --button-border: #ccd1d9;
+  --button-active-bg: #ccd1d9;
   --font-family-heading: 'Montserrat', sans-serif;
   --font-family-paragraph: 'roboto', sans-serif;
+  --font-family-blockquote: 'Open Sans', sans-serif;
+  --font-family-small-text: 'Open Sans', sans-serif;
 }
 :root[data-theme="dark"] {
   --text: #fdfcfd;
@@ -21,13 +27,22 @@
   --quinary: #32470a;
   --senary: #85e0d6;
   --accent: #8ebd3d;
+  --button-color: #fff;
+  --button-bg: #ccd1d9;
+  --button-border: #ccd1d9;
+  --button-active-bg: #ccd1d9;
   --font-family-heading: 'Montserrat', sans-serif;
   --font-family-paragraph: 'Open Sans', sans-serif;
+  --font-family-blockquote: 'Open Sans', sans-serif;
 }
 
 [data-theme='light'] .d-block-light,
 [data-theme='dark'] .d-block-dark {
   display: block !important;
+}
+
+div {
+  display: block;
 }
 
 .d-none {
