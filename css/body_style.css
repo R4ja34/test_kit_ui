@@ -1,6 +1,7 @@
 
 body {
   color: var(--text);
+  background-color: var(--background);
 }
 
 
