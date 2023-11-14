@@ -18,7 +18,7 @@
   padding: 10px;
   margin: 10px;
   /* background: url("img/logo_op.jpg") center/70px no-repeat black; meme ligne que tous ce qui a en dessous */ 
-  background-image: url("/test_kit_ui/img/logo_op.jpg");
+  background-image: url("/img/logo_op.jpg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
